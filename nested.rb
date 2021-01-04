@@ -1,4 +1,4 @@
-
+require 'pry'
 def hopper
 	programmer_hash =
  		{
@@ -36,11 +36,18 @@ def alan_kay_is_known_for
         :languages => ["C"]
       }
     }
+<<<<<<< HEAD
 programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
 
+=======
+alan_kay_is_known_for[:alan_kay][:known_for]
+end
+
+def dennis_ritchies_language
+>>>>>>> 37593c15e1eb626206e545c36223e562bdbd32e6
 	programmer_hash =
  		{
       :grace_hopper => {
@@ -56,10 +63,16 @@ def dennis_ritchies_language
         :languages => ["C"]
       }
     }
+<<<<<<< HEAD
 		programmer_hash[:dennis_ritchie][:languages][0]
 end
 
 
+=======
+programmer_hash[:languages]
+end
+binding.pry
+>>>>>>> 37593c15e1eb626206e545c36223e562bdbd32e6
 def adding_matz
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
@@ -91,6 +104,10 @@ end
 def changing_alan
   # change what Alan Kay is :known_for to the value of the alans_new_info variable.
   # return the entire updated hash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 37593c15e1eb626206e545c36223e562bdbd32e6
 	programmer_hash =
  		{
       :grace_hopper => {
@@ -113,6 +130,10 @@ end
 def adding_to_dennis
   # add "Assembly" to Dennis Ritchie's languages array
   # return the entire updated hash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 37593c15e1eb626206e545c36223e562bdbd32e6
 	programmer_hash =
  		{
       :grace_hopper => {
